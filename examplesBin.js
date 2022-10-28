@@ -18,3 +18,4 @@ let coach = {
   // getNameCoach = function (){ return coach.name}
   getNameAluminium = getName.bind(aluminium)
   console.log(getNameAluminium()) // 'Jhon'
+//   --------------------------------------------------------------------------------------------
