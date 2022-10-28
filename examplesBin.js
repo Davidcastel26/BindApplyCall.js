@@ -25,7 +25,7 @@ function crearCadena(delimitadorIzquierda, delimitadorDerecha, cadena){
   }
   
   let textoAsteriscos = crearCadena.bind(this, '*', '*');
-  
+  textoAsteriscos('Martina') // *Martina*
   let textGuiones = crearCadena.bind(this, '-', '-')
   
   let textUnderscore = crearCadena.bind(this, '_', '_')
