@@ -19,3 +19,13 @@ let coach = {
   getNameAluminium = getName.bind(aluminium)
   console.log(getNameAluminium()) // 'Jhon'
 //   --------------------------------------------------------------------------------------------
+function crearCadena(delimitadorIzquierda, delimitadorDerecha, cadena){
+    // console.log(this)
+    return delimitadorIzquierda + cadena + delimitadorDerecha;
+  }
+  
+  let textoAsteriscos = crearCadena.bind(this, '*', '*');
+  
+  let textGuiones = crearCadena.bind(this, '-', '-')
+  
+  let textUnderscore = crearCadena.bind(this, '_', '_')
